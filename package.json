@@ -1,0 +1,56 @@
+{
+  "name": "react-typescript-tailwind",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "lodash.debounce": "^4.0.8"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "jsxBracketSameLine": true,
+    "tabWidth": 2,
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "customize-cra": "1.0.0",
+    "customize-cra-react-refresh": "1.1.0",
+    "react-app-rewired": "2.1.6",
+    "@types/lodash.debounce": "^4.0.9",
+    "webpack-bundle-analyzer": "3.8.0",
+    "vite": "^5.0.11",
+    "@vitejs/plugin-react": "^4.2.1"
+  },
+  "keywords": [
+    "custom-hooks",
+    "tailwind",
+    "typescript",
+    "react"
+  ],
+  "description": "Template: React + TypeScript + Tailwind"
+}
